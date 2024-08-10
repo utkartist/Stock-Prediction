@@ -75,11 +75,10 @@ Visualizations of predicted vs. actual stock prices are generated to assess the 
 ## Results:
 ### Training Results: The model was trained over 40 epochs, and the loss decreased steadily, indicating that the model learned from the data.
 ### Predictions: The model's predictions on the test set show a close alignment with the actual stock prices, demonstrating the effectiveness of the LSTM approach.
-Visualizations:
 ### Training Loss Curve: A plot showing the reduction in loss over time during training.
 ### Prediction Plot: A comparison of predicted vs. actual stock prices over the test period.
 ## Contributing:
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
-##License
+## License:
 This project is licensed under the MIT License.
