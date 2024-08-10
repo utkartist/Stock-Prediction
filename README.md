@@ -29,12 +29,17 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/stock-price-prediction-lstm.git
+   
 ## Project Structure:
 
-### stock_price_prediction_lstm.ipynb: The main Jupyter Notebook containing the code for data preprocessing, model building, training, and evaluation.
-### data/: Directory containing the dataset used for this project.
-### models/: Directory to save trained models.
-### visualizations/: Contains visual output like plots and graphs generated during the analysis.
+### Stock_price_prediction_lstm.ipynb: 
+The main Jupyter Notebook containing the code for data preprocessing, model building, training, and evaluation.
+### Data: 
+Directory containing the dataset used for this project.
+### Models: 
+Directory to save trained models.
+### Visualizations: 
+Contains visual output like plots and graphs generated during the analysis.
 
 ## Usage:
 Ensure that all dependencies are installed by following the Installation steps.
@@ -42,11 +47,16 @@ Run the Jupyter Notebook:
 bash
 Copy code
 jupyter notebook stock_price_prediction_lstm.ipynb
+
 ### Follow the steps within the notebook to reproduce the results:
-Data loading and preprocessing.
-Exploratory Data Analysis (EDA).
-LSTM model building and training.
-Model evaluation and predictions.
+1. Data loading and preprocessing.
+
+2. Exploratory Data Analysis (EDA).
+
+3. LSTM model building and training.
+
+4. Model evaluation and predictions.
+
 ## Dataset:
 Description: The dataset consists of historical stock prices, including open, high, low, close, and volume information. 
 It is used to train and evaluate the LSTM model.
@@ -68,15 +78,20 @@ Dense Layer: Outputs the final stock price prediction.
 
 The model is trained on a portion of the historical data while validating on a separate validation set.
 The training process involves optimizing the loss function (e.g., Mean Squared Error) to minimize prediction errors.
+
 ### Evaluation:
 
 The model's performance is evaluated using metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 Visualizations of predicted vs. actual stock prices are generated to assess the model's accuracy.
 ## Results:
-### Training Results: The model was trained over 40 epochs, and the loss decreased steadily, indicating that the model learned from the data.
-### Predictions: The model's predictions on the test set show a close alignment with the actual stock prices, demonstrating the effectiveness of the LSTM approach.
-### Training Loss Curve: A plot showing the reduction in loss over time during training.
-### Prediction Plot: A comparison of predicted vs. actual stock prices over the test period.
+### Training Results: 
+The model was trained over 40 epochs, and the loss decreased steadily, indicating that the model learned from the data.
+### Predictions: 
+The model's predictions on the test set show a close alignment with the actual stock prices, demonstrating the effectiveness of the LSTM approach.
+### Training Loss Curve: 
+A plot showing the reduction in loss over time during training.
+### Prediction Plot: 
+A comparison of predicted vs. actual stock prices over the test period.
 ## Contributing:
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
