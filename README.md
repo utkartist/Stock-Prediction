@@ -17,7 +17,6 @@ This project focuses on predicting stock prices using Long Short-Term Memory (LS
 - [Modeling Approach](#modeling-approach)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 
@@ -94,6 +93,3 @@ A plot showing the reduction in loss over time during training.
 A comparison of predicted vs. actual stock prices over the test period.
 ## Contributing:
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License:
-This project is licensed under the MIT License.
